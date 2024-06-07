@@ -1,0 +1,11 @@
+1. Call Function.
+- For testing the LLM response change the topic string and run the script.
+
+2. API Testing.
+- To test the api comment the code in __name__ block and uncomment the app.run()
+- In Postman with request type 'POST' add below block in body > raw
+```
+{
+    "message" : "Why is the sky blue?"
+}
+```
